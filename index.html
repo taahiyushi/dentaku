@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>電卓</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class= "container">
+      <div id= "display" class="display">0</div>
+      <div class="input">
+        <table>
+        <tr>
+          <td><button class = "one_nine" data-index-id = 7>7</button></td>
+          <td><button class = "one_nine" data-index-id = 8>8</button></td>
+          <td><button class = "one_nine" data-index-id = 9>9</button></td>
+          <td><button class = "cal" data-index-id = '+'>+</button></td>
+        </tr>
+        
+        <tr>
+          <td><button class = "one_nine" data-index-id = 4>4</button></td>
+          <td><button class = "one_nine" data-index-id = 5>5</button></td>
+          <td><button class = "one_nine" data-index-id = 6>6</button></td>
+          <td><button class = "cal" data-index-id = '-'>-</button></td>
+        </tr>
+        
+        <tr>
+          <td><button class = "one_nine" data-index-id = 1>1</button></td>
+          <td><button class = "one_nine" data-index-id = 2>2</button></td>
+          <td><button class = "one_nine" data-index-id = 3>3</button></td>
+          <td><button class = "cal" data-index-id = '*'>×</button></td>
+        </tr>
+        
+        <tr>
+          <td><button id = "zero" data-index-id = 0>0</button></td>
+          <td><button></button> </button></td>
+          <td><button id = "point" data-index-id = .>.</button></td>
+          <td><button class = "cal" data-index-id = '/'>÷</button></td>
+        </tr>
+        
+        <tr>
+          <td colspan="2"><button id="clear">AC</button></td>
+          <td colspan="2"><button id='equal_btn'>=</button></td>
+        </tr>
+    
+      </table>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
